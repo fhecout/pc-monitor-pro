@@ -1,56 +1,82 @@
-# TaskFlow-Pro
+# PC Monitor Pro 🖥️
 
 <div align="center">
   <img src="https://img.shields.io/badge/status-finalizado-success" alt="Status do Projeto"/>
   <img src="https://img.shields.io/badge/licença-MIT-green" alt="Licença"/>
+  <img src="https://img.shields.io/badge/python-3.6+-blue" alt="Python Version"/>
 </div>
 
 ## 📋 Sobre o Projeto
 
-TaskFlow-Pro é uma aplicação moderna de gerenciamento de tarefas desenvolvida para otimizar sua produtividade diária. Com uma interface intuitiva e recursos poderosos, o TaskFlow-Pro transforma a maneira como você organiza suas atividades.
+PC Monitor Pro é uma ferramenta robusta de monitoramento de sistema desenvolvida em Python. Ela oferece monitoramento em tempo real do seu computador, incluindo uso de CPU, memória, disco, conexão de internet e muito mais. Ideal para administradores de sistema e usuários que precisam manter um olho constante no desempenho de suas máquinas.
 
-## ✨ Funcionalidades
+## ✨ Funcionalidades Principais
 
-- ✅ Criação e gerenciamento de tarefas
-- 🔄 Atualização em tempo real
-- 📱 Interface responsiva
-- 🎨 Design moderno e intuitivo
-- 🔒 Armazenamento seguro de dados
+- 🔄 Monitoramento em tempo real
+  - CPU: Uso geral e top 5 processos
+  - Memória RAM
+  - Discos: Espaço usado e disponível
+  - Conexão de Internet: Ping, download e upload
+  - Uptime do sistema
+
+- 📊 Alertas Automáticos
+  - Notificação de CPU alta (>85% por 3+ minutos)
+  - Alerta de ping elevado (>100ms)
+  - Monitoramento de quedas de conexão
+
+- 📝 Logs Detalhados
+  - Registros diários automáticos
+  - Formato de data e hora para fácil análise
+  - Armazenamento organizado por data
 
 ## 🚀 Tecnologias Utilizadas
 
-- React.js
-- TypeScript
-- Tailwind CSS
-- Next.js
+- Python 3.6+
+- Bibliotecas:
+  - psutil (monitoramento do sistema)
+  - speedtest-cli (teste de velocidade)
+  - datetime (gestão de tempo)
+  - subprocess (execução de comandos)
 
 ## 🛠️ Instalação
 
 ```bash
 # Clone o repositório
-git clone https://github.com/fhecout/taskflow-pro.git
+git clone https://github.com/fhecout/pc-monitor-pro.git
 
 # Entre no diretório
-cd taskflow-pro
+cd pc-monitor-pro
 
 # Instale as dependências
-npm install
+pip install -r requirements.txt
 
-# Inicie o servidor de desenvolvimento
-npm run dev
+# Execute o programa
+python app.py
 ```
 
 ## 🖥️ Pré-requisitos
 
-- Node.js (versão 14 ou superior)
-- npm ou yarn
+- Python 3.6 ou superior
+- Sistema Operacional: Windows
+- Conexão com a Internet
+- Privilégios de administrador (para algumas funcionalidades)
 
+## 📊 Exemplo de Saída
+
+```
+12:30:45 - 🚀 Iniciando monitoramento...
+12:30:46 - 📶 Ping Google: 25 ms
+12:30:47 - 🧠 Uso de CPU: 45%
+12:30:48 - 💽 Uso de discos:
+12:30:49 - 📊 Memória RAM: 60% usada (8192MB de 16384MB)
+12:30:50 - 🌐 Velocidade: Download=100.25Mbps, Upload=50.30Mbps, Ping=25.1ms
+```
 
 ## 📬 Contato
 
-Seu Nome - [@fhecout](https://twitter.com/fhecout) - fhecout@gmail.com
+Felipe Henrique - [@fhecout](https://twitter.com/fhecout) - fhecout@gmail.com
 
-Link do Projeto: [https://github.com/fhecout/taskflow-pro](https://github.com/fhecout/taskflow-pro)
+Link do Projeto: [https://github.com/fhecout/pc-monitor-pro](https://github.com/fhecout/pc-monitor-pro)
 
 ---
 
