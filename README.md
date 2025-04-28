@@ -74,7 +74,7 @@ python app.py
 
 ## 📬 Contato
 
-Felipe Henrique - [@fhecout](https://twitter.com/fhecout) - fhecout@gmail.com
+Felipe Couto - [@fhecout](https://twitter.com/fhecout)
 
 Link do Projeto: [https://github.com/fhecout/pc-monitor-pro](https://github.com/fhecout/pc-monitor-pro)
 
