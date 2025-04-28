@@ -1,7 +1,7 @@
 # TaskFlow-Pro
 
 <div align="center">
-  <img src="https://img.shields.io/badge/status-em%20desenvolvimento-yellow" alt="Status do Projeto"/>
+  <img src="https://img.shields.io/badge/status-finalizado-success" alt="Status do Projeto"/>
   <img src="https://img.shields.io/badge/licença-MIT-green" alt="Licença"/>
 </div>
 
